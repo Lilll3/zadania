@@ -1,0 +1,64 @@
+*{
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+div{
+    background-color: rgb(112, 48, 176);
+    color: white;
+    border-radius: 5%;
+    box-shadow: 5px 5px rgb(76, 215, 178);
+}
+
+a{
+    text-decoration: none;
+    background-color: white;
+    display: block;
+    width: 20%;
+    border-radius: 5%;
+    margin: auto;
+    margin-bottom: 5px;
+    font-size: 15px;
+    padding: 8px;
+}
+div.aholder{
+    padding: 15px;
+    width: 40%;
+    margin: auto;
+}
+div.il{
+display: inline-block;
+    font-size: large;
+    height: auto;
+    width: 40%;
+}
+
+div.fifty{
+    margin: none;
+    width: 40%;
+    display: inline-table;
+}
+a.filter{
+    display: inline-block;
+}
+div.task{
+padding: 20px;
+display: inline-block;
+}
+
+input, textarea, select{
+    background-color: rgb(76, 215, 178);
+    outline: none;
+    border: none;
+    color: rgb(10, 70, 80);
+}
+
+input[type=submit]{
+    background-color: white;
+    color: rgb(112, 48, 176);
+}
+div.filterbox{
+    margin-top: 15px;
+    padding-top: 10px;
+}
